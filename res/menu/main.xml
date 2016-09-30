@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+          android:icon="@drawable/pic2"
+          android:title="Home" 
+           android:showAsAction="always"/>
+    <item android:id="@+id/about"
+          android:icon="@drawable/pic4"
+          android:title="About"
+          android:showAsAction="always"/>
+    <item android:id="@+id/exit" 
+         android:icon="@drawable/pic1"
+        android:title="Exit"
+      android:showAsAction="ifRoom"></item>
+</menu>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rj.quicklink"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8" android:targetSdkVersion="17"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pic7"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="Splash">
+             <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+
+        </intent-filter>></activity>
+        <activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <activity android:name="Airlines"
+            android:label="AIRLINES"
+            android:icon="@drawable/air"></activity>
+        <activity android:name="Applications"
+            android:label="APPLICATIONS"
+            android:icon="@drawable/app">
+            
+        </activity><activity android:name="Automobiles"
+            android:label="AUTOMOLIES"
+            android:icon="@drawable/auto"></activity>
+        <activity android:name="Banking"
+            android:label="BANKING"
+            android:icon="@drawable/bank">
+            
+        </activity><activity android:name="Blogs"
+            android:label="BLOGS"
+            android:icon="@drawable/blog"></activity>
+        <activity android:name="Books"
+            android:label="BOOKS"
+            android:icon="@drawable/book"></activity>
+        <activity android:name="Designers"
+            android:label="TOURISM"
+            android:icon="@drawable/tou"></activity>
+        <activity android:name="Education"
+            android:label="EDUCATION"
+            android:icon="@drawable/edu"></activity>
+        <activity android:name="Electronics"
+            android:label="ELECTRONICS"
+            android:icon="@drawable/ele"></activity>
+        <activity android:name="Entertainment" 
+            android:label="ENTERTAINMENT"
+            android:icon="@drawable/movi"></activity>
+        <activity android:name="FMCG"
+            android:label="MOVIES"
+            android:icon="@drawable/movi"></activity>
+        <activity android:name="Food"
+            android:label="FOOD"
+            android:icon="@drawable/food"></activity>
+        <activity android:name="Government"
+            android:label="GOVERNMENT"
+            android:icon="@drawable/gov"></activity>
+        <activity android:name="Hospitals"
+            android:label="HOSPITALS"
+            android:icon="@drawable/hosp"></activity>
+        <activity android:name="Infrastructure"></activity>
+        <activity android:name="IT"
+            android:label="CARS AND BUS"
+            android:icon="@drawable/car"></activity>
+        <activity android:name="Jewellery"></activity>
+        <activity android:name="Jobs"
+            android:label="JOBS"
+            android:icon="@drawable/job"></activity>
+        <activity android:name="List"
+            android:label="CATEGORIES"
+            
+           ></activity>
+        <activity android:name="News"
+            android:label="NEWS"
+            android:icon="@drawable/news"></activity>
+        <activity android:name="Shopping"
+            android:label="SHOPPING"
+            android:icon="@drawable/shop"></activity>
+        <activity android:name="Social"
+            android:label="SOCIAL NETWORK"
+            android:icon="@drawable/social1"></activity>
+        <activity android:name="Sports"
+            android:label="SPORTS"
+            android:icon="@drawable/sport"></activity>
+        <activity android:name="Stock"
+            android:label="STOCK"
+            android:icon="@drawable/stock"></activity>
+        <activity android:name="Tourism"
+            android:label="TRAVEL"
+            android:icon="@drawable/trav"></activity>
+        <activity android:name="Venture"></activity>
+        <activity android:name="Web"></activity>
+        <activity android:name="WebBooks"></activity><activity android:name="WebBlog"></activity>
+        <activity android:name="WebEdu"></activity>
+        <activity android:name="WebElec"></activity>
+        <activity android:name="WebEnt"></activity>
+        <activity android:name="WebF"></activity>
+        <activity android:name="WebFood"></activity>
+        <activity android:name="WebGo"></activity>
+        <activity android:name="WebHo"></activity>
+        <activity android:name="WebJob"></activity>
+        <activity android:name="WebNews"></activity>
+        <activity android:name="WebShop"></activity>
+        <activity android:name="WebSo"></activity>
+        <activity android:name="WebSto"></activity>
+        <activity android:name="WebTou"></activity>
+        <activity android:name="Webfmcg"></activity>
+        <activity android:name="WebAd"></activity>
+        <activity android:name="WebSport"></activity>
+        <activity android:name="Webair"></activity>
+        <activity android:name="Webd"></activity>
+        <activity android:name="Webit"></activity>
+        <activity android:name="Menus"></activity>
+        <activity android:name="About"></activity>
+        <activity android:name="Diamonds"
+            android:label="DIAMONDS"
+            android:icon="@drawable/diamond"></activity>
+        <activity android:name="Matrimony"
+            android:label="MATRIMONY"
+            android:icon="@drawable/mat"></activity>
+        <activity android:name="Modelling"
+            android:label="MODELLING"
+            android:icon="@drawable/model"></activity>
+        <activity android:name="Quotes"
+            android:label="QUOTES"
+            android:icon="@drawable/sn"></activity>
+        <activity android:name="Recipes"
+            android:label="RECIPES"
+            ></activity><activity android:name="Songs"
+             android:label="SONGS"
+            android:icon="@drawable/music"></activity>
+    
+    </application>
+
+</manifest>
